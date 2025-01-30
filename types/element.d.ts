@@ -1,4 +1,4 @@
-import { AnnotationOptions } from './options';
+import { AnnotationOptions } from './options.js';
 
 export interface AnnotationBoxModel {
   x: number,

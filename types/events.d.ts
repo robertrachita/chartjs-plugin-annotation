@@ -1,5 +1,5 @@
 import { Chart, ChartEvent } from 'chart.js';
-import { AnnotationElement } from './element';
+import { AnnotationElement } from './element.js';
 
 export interface EventContext {
   chart: Chart,

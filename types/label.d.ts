@@ -1,6 +1,6 @@
 import { Color, FontSpec, BorderRadius } from 'chart.js';
-import { PartialEventContext } from './events';
-import { DrawTime, Scriptable, ShadowOptions } from './options';
+import { PartialEventContext } from './events.js';
+import { DrawTime, Scriptable, ShadowOptions } from './options.js';
 
 type percentString = `${number}%`;
 export type LabelPosition = 'start' | 'center' | 'end' | percentString;

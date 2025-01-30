@@ -1,6 +1,6 @@
 import { Chart, ChartType, Plugin } from 'chart.js';
-import { AnnotationPluginOptions, BoxAnnotationOptions, EllipseAnnotationOptions, LabelAnnotationOptions, LineAnnotationOptions, PointAnnotationOptions, PolygonAnnotationOptions, DoughnutLabelAnnotationOptions } from './options';
-import { AnnotationElement } from './element';
+import { AnnotationPluginOptions, BoxAnnotationOptions, EllipseAnnotationOptions, LabelAnnotationOptions, LineAnnotationOptions, PointAnnotationOptions, PolygonAnnotationOptions, DoughnutLabelAnnotationOptions } from './options.js';
+import { AnnotationElement } from './element.js';
 
 declare module 'chart.js' {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -25,7 +25,7 @@ declare const Annotation: Plugin & {
 
 export default Annotation;
 
-export * from './element';
-export * from './events';
-export * from './label';
-export * from './options';
+export * from './element.js';
+export * from './events.js';
+export * from './label.js';
+export * from './options.js';

@@ -1,7 +1,7 @@
 import { Chart, Color, PointStyle, BorderRadius, CoreInteractionOptions } from 'chart.js';
-import { AnnotationEvents, PartialEventContext, EventContext } from './events';
-import { LabelOptions, BoxLabelOptions, LabelTypeOptions, DoughnutLabelOptions } from './label';
-import { AnnotationBoxModel, AnnotationElement } from './element';
+import { AnnotationEvents, PartialEventContext, EventContext } from './events.js';
+import { LabelOptions, BoxLabelOptions, LabelTypeOptions, DoughnutLabelOptions } from './label.js';
+import { AnnotationBoxModel, AnnotationElement } from './element.js';
 
 export type DrawTime = 'afterDraw' | 'afterDatasetsDraw' | 'beforeDraw' | 'beforeDatasetsDraw' | number;
 

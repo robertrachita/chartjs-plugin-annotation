@@ -1,3 +1,10 @@
+This is a simple update to the existing chartjs-plugin-annotation.js, to allow it to work when using Typescript/node16 or nodenext. Specifically, this solves this error:
+Error: node_modules/chartjs-plugin-annotation/types/index.d.ts(2,218): error TS2834: Relative import paths need explicit file extensions in EcmaScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Consider adding an extension to the import path.
+
+All the credits go the original authors and package: https://github.com/chartjs/chartjs-plugin-annotation. For all intents and purposes, you probably want to use that package.
+
+Original README below:
+
 # chartjs-plugin-annotation.js
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/chartjs/chartjs-plugin-annotation/ci.yml?branch=master)](https://github.com/chartjs/chartjs-plugin-annotation/actions/workflows/ci.yml)
